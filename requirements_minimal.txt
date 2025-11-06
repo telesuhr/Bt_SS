@@ -1,0 +1,20 @@
+# 最小限の依存関係（ta-lib、numba、psycopg2、redis除外）
+
+# データ処理
+pandas==2.1.4
+numpy==1.24.3
+
+# データベース（SQLite専用）
+sqlalchemy==2.0.23
+
+# 可視化
+plotly==5.18.0
+matplotlib==3.8.2
+
+# バックテスト
+scipy==1.11.4
+
+# ユーティリティ
+pydantic==2.5.3
+python-dotenv==1.0.0
+loguru==0.7.2

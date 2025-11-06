@@ -1,0 +1,20 @@
+# Data Processing
+pandas==2.1.4
+numpy==1.24.3
+
+# Database
+sqlalchemy==2.0.23
+
+# Visualization
+plotly==5.18.0
+matplotlib==3.8.2
+
+# Backtesting
+scipy==1.11.4
+
+# Utilities
+pydantic==2.5.3
+python-dotenv==1.0.0
+loguru==0.7.2
+pytest==7.4.3
+black==23.12.1

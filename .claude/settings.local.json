@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(/c/Users/09848/.pyenv/pyenv-win/shims/python -m venv venv)",
+      "Bash(venv/Scripts/pip install:*)",
+      "Bash(venv/Scripts/python.exe -m pip install:*)",
+      "Bash(touch:*)",
+      "Bash(mkdir:*)",
+      "Bash(venvScriptspython.exe test_bloomberg_toyota.py:*)",
+      "Bash(venv/Scripts/python:*)",
+      "Bash(ls:*)",
+      "Bash(start reports/toyota_backtest_chart_20251107_002421.html)",
+      "Bash(start reportsmulti_stock_report_20251107_010853.html)",
+      "Bash(start reports/best_strategy_report_20251107_011618.html)",
+      "Bash(dir)",
+      "Bash(git init:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": []
+  }
+}
